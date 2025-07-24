@@ -1,12 +1,12 @@
-/* navbar related styles */
-/* shared styles */
+
 *{
     font-family: inter;
 }
-.navbar{
+/* shared styles */
+.navbar,.banner{
     margin: 0 150px;
 }
-
+/* navbar related styles */
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -32,3 +32,34 @@
     color: #000000;
 }
 /* banner related styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+.banner-content{
+    padding: 28px;
+    
+}
+.banner-content h3{
+    font-family: Noto Serif;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-bottom: 0;
+
+}
+.banner-content p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    font-weight: 400;
+   
+}
+.banner-image{
+
+}
+.color-4{
+    color: #E95A08;
+}

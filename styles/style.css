@@ -3,8 +3,8 @@
     font-family: inter;
 }
 /* shared styles */
-.navbar,.banner{
-    margin: 0 150px;
+.navbar,.banner, .plants, .plants-lover {
+    margin: 0 80px;
 }
 /* navbar related styles */
 .navbar{
@@ -45,23 +45,57 @@
 }
 .banner-content h3{
     font-family: Noto Serif;
-    font-size: 42px;
+    font-size: 2.625em;
     font-weight: 700;
     letter-spacing: 0;
     margin-bottom: 0;
 
 }
-.banner-content p{
+.paragraph{
     color: rgba(0, 0, 0, 0.5);
-    font-size: 18px;
+    font-size: 1.1em;
     font-weight: 400;
    
 }
-.banner-image{
 
-}
 .color-4{
     color: #E95A08;
+}
+
+/* plants related styles */
+.plants{
+    margin-top: 80px;
+}
+.plants h4{
+    font-size: 2.2em;
+    font-weight: 700;
+    margin-bottom: 0;   
+}
+
+.plants-card{   
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; 
+        
+}   
+.plants, .card-details{
+    text-align: center;
+}
+.card-details{
+    font-size: 1.1em;
+}
+.plant-price{
+    font-weight: bold;
+}
+.card-button{
+    width: 100%;
+    border: none;
+    background-color: #E95A08;
+    color: white;
+    padding: 15px;
+}
+.color-5{
+    color: #111111;
 }
 
 /* for responsive(mobile devices)*/
@@ -83,7 +117,7 @@
         
     }
     .banner-content h3{
-        font-size: 24px;
+        /* font-size: 24px; */
     }
    
 }

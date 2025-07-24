@@ -63,3 +63,27 @@
 .color-4{
     color: #E95A08;
 }
+
+/* for responsive(mobile devices)*/
+@media  screen and (max-width: 576px) {
+    
+    .nav-link{
+        display: none;
+    }
+    .navbar{
+        justify-content: space-between;
+        margin: auto;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        margin: auto;
+    }
+    .banner-content{
+        text-align: left;
+        
+    }
+    .banner-content h3{
+        font-size: 24px;
+    }
+   
+}

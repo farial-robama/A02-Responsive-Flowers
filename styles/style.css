@@ -1,6 +1,7 @@
 
 *{
     font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
 }
 /* shared styles */
 .navbar,.banner, .plants, .plants-lover, .latest-deal {
@@ -86,7 +87,9 @@
 .plants-card{   
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;        
+    gap: 20px; 
+    width: 100%;
+    padding: 0;    
 }   
 .plants, .card-details{
     text-align: center;

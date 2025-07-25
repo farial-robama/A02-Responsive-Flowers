@@ -229,7 +229,7 @@
 /* join related styles */
 .join{
     background-image: url('../assets/news-letter-bg.png');
-    height: 400px;
+    height: 450px;
     display: flex;
     flex-direction: column;  
     align-items: center;     
@@ -261,7 +261,48 @@
     align-items: center;
     border: none;
     padding: 15px 60px;
+}
 
+/* footer related styles */
+.footer{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    margin: 50px 80px;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;   
+    width: 30% ;  
+}
+.footer-content > p{
+    width: 100%;
+    font-size: 20px;
+}
+.footer-links{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.footer-links a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(107, 114, 128);
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.link-column{
+  display: flex;
+  flex-direction: column;
+  gap: 30px; 
+}
+.footer-apps{
+    display: flex;
+    width: 36px;
+    height: 36px;
+    gap: 28px;
 }
 
 
@@ -357,6 +398,23 @@
     font-size: 1.3em;
  }
 
+ /* footer */
+ .footer{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 40px auto;
+}
+.footer-content{     
+    width: 100% ;   
+}
+.footer-links{ 
+    flex-direction: column;
+    gap: 40px;    
+}
+.link-column{
+    gap: 40px;
+}
 }
 
 
